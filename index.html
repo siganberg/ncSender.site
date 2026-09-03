@@ -11,7 +11,7 @@
   <meta property="og:title" content="ncSender — Run your CNC from one clean screen">
   <meta property="og:description" content="A cross-platform CNC controller for grblHAL machines. Free open-source Community edition, Pro for production.">
   <meta property="og:url" content="https://ncsender.xyz/">
-  <meta property="og:image" content="https://ncsender.xyz/assets/desktop-hero.jpg">
+  <meta property="og:image" content="https://ncsender.xyz/assets/desktop-hero-poster.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#111720">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,7 +97,7 @@
     </div>
   </div>
   <div class="wrap" style="padding-bottom: 96px;">
-    <img class="shot" src="assets/desktop-hero.webp" width="1280" height="720" alt="ncSender running a job: the 3D visualizer follows the tool through a tool change while the DRO, jog controls and G-code preview update">
+    <video class="shot" src="assets/desktop-hero.mp4" poster="assets/desktop-hero-poster.jpg" width="1440" height="810" autoplay muted loop playsinline preload="metadata" aria-label="ncSender running a job: the 3D visualizer follows the tool through a tool change while the DRO, jog controls and G-code preview update"></video>
   </div>
 
   <!-- The loop -->
@@ -115,7 +115,7 @@
         <h3 style="font-size: 28px; color: #e6ecf2;">Know what the machine is about to do before it does it.</h3>
         <p>The 3D visualizer renders the whole toolpath with the toolhead following along live. Top, side, 3D and split views, workspace markers, a tool legend per bit, and out-of-bounds detection that flags a job that won't fit before you press Cycle.</p>
       </div>
-      <img class="shot step-art" src="assets/touch-view.webp" width="480" height="842" alt="ncSender in its vertical touchscreen layout: visualizer on top, jog pad, DRO and G-code preview stacked below" style="max-width: 360px; justify-self: end;">
+      <video class="shot step-art" src="assets/touch-view.mp4" poster="assets/touch-view-poster.jpg" width="600" height="1052" autoplay muted loop playsinline preload="metadata" aria-label="ncSender in its vertical touchscreen layout: visualizer on top, jog pad, DRO and G-code preview stacked below" style="max-width: 360px; justify-self: end;"></video>
     </div>
 
     <div class="step">
@@ -142,7 +142,7 @@
         <h3 style="font-size: 28px; color: #e6ecf2;">Run it, and keep your hands on the overrides.</h3>
         <p>Feed, rapid and spindle overrides live on the main screen. The DRO shows work and machine position side by side, with press-and-hold to zero an axis. Program events let a macro fire on start, pause, stop or tool change, and the G-code preview highlights the line being cut.</p>
       </div>
-      <img class="shot step-art" src="assets/gcode-preview.webp" width="702" height="560" alt="The G-code preview follows the running program, highlighting the current line as the job advances" style="max-width: 480px; justify-self: end;">
+      <video class="shot step-art" src="assets/gcode-preview.mp4" poster="assets/gcode-preview-poster.jpg" width="704" height="562" autoplay muted loop playsinline preload="metadata" aria-label="The G-code preview follows the running program, highlighting the current line as the job advances" style="max-width: 480px; justify-self: end;"></video>
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 32px;">
@@ -151,7 +151,7 @@
         <h3 style="font-size: 28px; color: #e6ecf2;">Pick up where it left off.</h3>
         <p>Start From Line resumes a job from any line: after a broken bit, a power blip, or to skip a section you have already cut. ncSender reads the program up to that point and shows the machine state it expects there, then sends a resume sequence that restores the tool, spindle speed, feed rate, units and coolant before the first move. Double-click a line in the G-code preview to start from it.</p>
       </div>
-      <img class="shot" src="assets/start-from-line.webp" width="1100" height="618" alt="The Start From Line dialog showing the machine state at the chosen line and the resume sequence, then the job continuing from that line">
+      <video class="shot" src="assets/start-from-line.mp4" poster="assets/start-from-line-poster.jpg" width="1440" height="810" autoplay muted loop playsinline preload="metadata" aria-label="The Start From Line dialog showing the machine state at the chosen line and the resume sequence, then the job continuing from that line"></video>
     </div>
   </div>
 
@@ -316,5 +316,18 @@
     <p style="font-size: 13px;">© 2026 Francis Creation. Community edition is open source under a dual licence; Pro is a commercial edition.</p>
   </div>
 </div>
+<script>
+  (function () {
+    var vids = document.querySelectorAll('video[autoplay]');
+    if (!('IntersectionObserver' in window)) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        var v = e.target;
+        if (e.isIntersecting) { v.play().catch(function () {}); } else { v.pause(); }
+      });
+    }, { rootMargin: '200px 0px' });
+    vids.forEach(function (v) { io.observe(v); });
+  })();
+</script>
 </body>
 </html>
