@@ -41,6 +41,18 @@
     .step { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: center; }
     .nav-links { display: flex; gap: 24px; align-items: center; }
     .hero-cta { align-items: center; }
+    .compare { width: 100%; border-collapse: collapse; font-size: 15px; }
+    .compare th, .compare td { padding: 12px 16px; text-align: left; border-top: 1px solid rgba(255,255,255,0.06); }
+    .compare thead th { border-top: 0; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #93a2b4; font-weight: 600; }
+    .compare th.ed, .compare td.ed { width: 150px; text-align: center; }
+    .compare thead th.pro, .compare td.pro { background: rgba(26,188,156,0.06); }
+    .compare thead th.pro { color: #1abc9c; border-radius: 10px 10px 0 0; }
+    .compare td { color: #e6ecf2; }
+    .compare .group td { padding-top: 28px; border-top: 0; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #1abc9c; }
+    .compare .group td.pro { background: rgba(26,188,156,0.06); }
+    .compare .yes { color: #1abc9c; font-weight: 700; }
+    .compare .no { color: #56657a; }
+    .compare .txt { color: #93a2b4; font-size: 14px; }
     @media (max-width: 720px) {
       .wrap { padding: 0 20px; }
       h1 { font-size: 46px; } h2 { font-size: 30px; }
@@ -53,6 +65,10 @@
       .two-col { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; }
       .card { padding: 20px !important; }
       .band { padding-top: 56px !important; padding-bottom: 56px !important; }
+      .compare { font-size: 13px; }
+      .compare th, .compare td { padding: 10px 8px; }
+      .compare th.ed, .compare td.ed { width: 76px; }
+      .compare .txt { font-size: 12px; }
     }
     </style>
 </head>
@@ -266,6 +282,7 @@
           <div>Tool library and program events</div>
           <div>All accessories and plugins, including the tool changers</div>
           <div>Pendant support, wired and wireless</div>
+          <div>Update alerts and release notes</div>
         </div>
         <a class="btn btn-ghost" href="https://github.com/siganberg/ncSender/releases/latest" style="align-self: flex-start;">Download Community</a>
       </div>
@@ -280,13 +297,50 @@
           <div>Safety Door Intelligence and Trace</div>
           <div>Keepout zones</div>
           <div>Vectric tool library import</div>
-          <div>In-app updates on Windows, macOS and Linux</div>
+          <div>One-click in-app updates on Windows, macOS and Linux</div>
           <div>ncSenderOS — Raspberry Pi 5 image that boots straight into kiosk mode</div>
           <div>Virtual keyboard for touchscreens</div>
           <div>Deutsch, Fran&ccedil;ais and Espa&ntilde;ol, with more to come</div>
         </div>
         <a class="btn btn-primary" href="https://franciscreation.com/p/ncsenderpro" style="align-self: flex-start;">Get ncSender Pro</a>
       </div>
+    </div>
+    <div class="card" style="padding: 32px; display: flex; flex-direction: column; gap: 20px; overflow-x: auto;">
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <h3 style="font-size: 24px; color: #e6ecf2;">Compare editions</h3>
+        <p style="font-size: 15px;">Community runs your machine. Pro adds what a production shop leans on.</p>
+      </div>
+      <table class="compare">
+        <thead>
+          <tr><th>Feature</th><th class="ed">Community</th><th class="ed pro">Pro</th></tr>
+        </thead>
+        <tbody>
+          <tr class="group"><td>Run your machine</td><td class="ed"></td><td class="ed pro"></td></tr>
+          <tr><td>3D visualizer and G-code preview</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Jog, DRO, macros and console</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Probing &mdash; 3D probe, block, AutoZero, TLS</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Tool library and program events</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>All accessories and plugins, including the tool changers</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Pendant support, wired and wireless</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr class="group"><td>Updates</td><td class="ed"></td><td class="ed pro"></td></tr>
+          <tr><td>Update alerts and release notes</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>One-click install on Linux (Debian)</td><td class="ed"><span class="yes" aria-label="Included">&#10003;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>One-click install on Windows</td><td class="ed"><span class="txt">Download yourself</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>One-click install on macOS</td><td class="ed"><span class="txt">Download yourself</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr class="group"><td>Pro features</td><td class="ed"></td><td class="ed pro"></td></tr>
+          <tr><td>4th axis, laser mode, multi-workspace</td><td class="ed"><span class="no" aria-label="Not included">&mdash;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Safety Door Intelligence and Trace</td><td class="ed"><span class="no" aria-label="Not included">&mdash;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Keepout zones</td><td class="ed"><span class="no" aria-label="Not included">&mdash;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Vectric tool library import</td><td class="ed"><span class="no" aria-label="Not included">&mdash;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>ncSenderOS &mdash; Raspberry Pi 5 kiosk image</td><td class="ed"><span class="no" aria-label="Not included">&mdash;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Virtual keyboard for touchscreens</td><td class="ed"><span class="no" aria-label="Not included">&mdash;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr><td>Deutsch, Fran&ccedil;ais and Espa&ntilde;ol</td><td class="ed"><span class="no" aria-label="Not included">&mdash;</span></td><td class="ed pro"><span class="yes" aria-label="Included">&#10003;</span></td></tr>
+          <tr class="group"><td>Licence</td><td class="ed"></td><td class="ed pro"></td></tr>
+          <tr><td>Source code</td><td class="ed"><span class="txt">Open source</span></td><td class="ed pro"><span class="txt">Commercial</span></td></tr>
+          <tr><td>Price</td><td class="ed"><span class="txt">Free</span></td><td class="ed pro"><span class="txt">$79.00</span></td></tr>
+        </tbody>
+      </table>
+      <p style="font-size: 14px;">Both editions check for updates and show the release notes. On Windows and macOS, Community tells you a new version is out and you download and install it yourself; Pro installs it for you in one click and restarts. On Debian-based Linux, both install in-app.</p>
     </div>
   </div>
 
