@@ -1941,6 +1941,10 @@
 <h2 id="monitoring">Monitoring<a class="headerlink" href="#monitoring" title="Permanent link">¶</a></h2>
 <p>The firmware reads <strong>MBUS_OK</strong>, an opto that is lit while the bus is live. A MOSFET can fail shorted, and if the E-stop loop is open while the bus still reads live, the firmware raises an alarm and refuses to run. ncSender shows this as a motor-bus fault.</p>
 <h2 id="on-the-adapter-card">On the adapter card<a class="headerlink" href="#on-the-adapter-card" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/mb-motor-bus.svg" data-desc-position="bottom"><img alt="MOTOR PWR XT30 socket on the mainboard; the adapter's plug is the mirror" src="../../assets/images/connectors/mb-motor-bus.svg"></a></p>
+<figcaption>MOTOR PWR XT30 socket on the mainboard; the adapter's plug is the mirror</figcaption>
+</figure>
 <p>The adapter card receives the bus on its own XT30 and distributes it:</p>
 <ul>
 <li>Onefinity Redline and Elite: into pin 5 of each motor connector, since those machines carry motor power in the same cable as the signals.</li>

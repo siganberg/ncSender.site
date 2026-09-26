@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 172" width="520" height="344" font-family="Inter, Roboto, Helvetica, Arial, sans-serif">
+<rect x="6" y="22" width="248" height="136" rx="6" fill="#8b8f95" stroke="#3a3d42" stroke-width="2"/>
+<rect x="116" y="20" width="28" height="14" fill="#f4f4f4" stroke="#3a3d42" stroke-width="2"/>
+<rect x="20" y="36" width="52" height="52" rx="3" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="41" y="65" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="46" y="56" text-anchor="middle" font-size="19" font-weight="700" fill="#111">1</text>
+<text x="46" y="82" text-anchor="middle" font-size="10" font-weight="600" fill="#111">STEP+</text>
+<rect x="76" y="36" width="52" height="52" rx="3" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="97" y="65" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="102" y="56" text-anchor="middle" font-size="19" font-weight="700" fill="#111">3</text>
+<text x="102" y="82" text-anchor="middle" font-size="10" font-weight="600" fill="#111">DIR+</text>
+<rect x="132" y="36" width="52" height="52" rx="3" fill="#b07a6a" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="153" y="65" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="158" y="56" text-anchor="middle" font-size="19" font-weight="700" fill="#111">5</text>
+<text x="158" y="82" text-anchor="middle" font-size="10" font-weight="600" fill="#111">5V</text>
+<rect x="188" y="36" width="52" height="52" rx="3" fill="#6f7378" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="209" y="65" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="214" y="56" text-anchor="middle" font-size="19" font-weight="700" fill="#111">7</text>
+<text x="214" y="82" text-anchor="middle" font-size="10" font-weight="600" fill="#111">GND</text>
+<rect x="20" y="92" width="52" height="52" rx="3" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="41" y="121" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="46" y="112" text-anchor="middle" font-size="19" font-weight="700" fill="#111">2</text>
+<text x="46" y="138" text-anchor="middle" font-size="10" font-weight="600" fill="#111">STEP−</text>
+<rect x="76" y="92" width="52" height="52" rx="3" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="97" y="121" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="102" y="112" text-anchor="middle" font-size="19" font-weight="700" fill="#111">4</text>
+<text x="102" y="138" text-anchor="middle" font-size="10" font-weight="600" fill="#111">DIR−</text>
+<rect x="132" y="92" width="52" height="52" rx="3" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="153" y="121" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="158" y="112" text-anchor="middle" font-size="19" font-weight="700" fill="#111">6</text>
+<text x="158" y="138" text-anchor="middle" font-size="10" font-weight="600" fill="#111">EN−</text>
+<rect x="188" y="92" width="52" height="52" rx="3" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="209" y="121" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="214" y="112" text-anchor="middle" font-size="19" font-weight="700" fill="#111">8</text>
+<text x="214" y="138" text-anchor="middle" font-size="10" font-weight="600" fill="#111">ALM</text>
+<rect x="41" y="158" width="10" height="12" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<rect x="97" y="158" width="10" height="12" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<rect x="153" y="158" width="10" height="12" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<rect x="209" y="158" width="10" height="12" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+</svg>

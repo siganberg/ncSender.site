@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 116" width="296" height="232" font-family="Inter, Roboto, Helvetica, Arial, sans-serif">
+<rect x="6" y="22" width="136" height="80" rx="6" fill="#8b8f95" stroke="#3a3d42" stroke-width="2"/>
+<rect x="48.8" y="4" width="50.4" height="20" rx="3" fill="#8b8f95" stroke="#3a3d42" stroke-width="2"/>
+<rect x="20" y="36" width="52" height="52" rx="3" fill="#6f7378" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="41" y="65" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="46" y="56" text-anchor="middle" font-size="19" font-weight="700" fill="#111">2</text>
+<text x="46" y="82" text-anchor="middle" font-size="10" font-weight="600" fill="#111">GND</text>
+<rect x="76" y="36" width="52" height="52" rx="3" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="97" y="65" width="10" height="10" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<text x="102" y="56" text-anchor="middle" font-size="19" font-weight="700" fill="#111">1</text>
+<text x="102" y="82" text-anchor="middle" font-size="10" font-weight="600" fill="#111">TLS</text>
+<rect x="41" y="102" width="10" height="12" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+<rect x="97" y="102" width="10" height="12" fill="#c9ccd1" stroke="#3a3d42" stroke-width="1"/>
+</svg>

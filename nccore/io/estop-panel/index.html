@@ -1930,6 +1930,10 @@
 <h1 id="e-stop-panel-door">E-Stop Panel &amp; Door<a class="headerlink" href="#e-stop-panel-door" title="Permanent link">¶</a></h1>
 <p>The seven-position screw terminal marked PANEL / E-STOP carries the E-stop loop, three operator buttons and a lamp supply. The pin order is the same as Sienci's SLB and SLB-EXT E-stop box, so an AltMill owner moves the seven wires of that box straight across.</p>
 <h2 id="pinout">Pinout<a class="headerlink" href="#pinout" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/mb-panel.svg" data-desc-position="bottom"><img alt="PANEL / E-STOP terminal J44, as printed on the board" src="../../assets/images/connectors/mb-panel.svg"></a></p>
+<figcaption>PANEL / E-STOP terminal J44, as printed on the board</figcaption>
+</figure>
 <table>
 <thead>
 <tr>
@@ -1995,6 +1999,10 @@
 <h2 id="bypass-jumper">Bypass jumper<a class="headerlink" href="#bypass-jumper" title="Permanent link">¶</a></h2>
 <p>J36, E-STOP BYPASS, connects OUT to RET on the board. Fit it <strong>only</strong> on machines whose own E-stop removes the DC supply: Onefinity Elite and Redline, and cabinets with a Nova panel or similar. With it fitted, ncCore has no E-stop of its own.</p>
 <h2 id="door-switch">Door switch<a class="headerlink" href="#door-switch" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/mb-door.svg" data-desc-position="bottom"><img alt="DOOR terminal J45" src="../../assets/images/connectors/mb-door.svg"></a></p>
+<figcaption>DOOR terminal J45</figcaption>
+</figure>
 <p>The two-position terminal marked DOOR, with positions S and −, takes a safety-door switch as a dry contact to ground. When the door opens, grblHAL pauses the job and, depending on settings, stops the spindle; when it closes, the job resumes. ncSender's Safety Door feature builds on this.</p>
 <p>The door input has a blue LED beside its terminal.</p>
 

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 170" width="520" height="340" font-family="Inter, Roboto, Helvetica, Arial, sans-serif">
+<g transform="translate(45 0)"><circle cx="85" cy="85" r="74" fill="#8b8f95" stroke="#3a3d42" stroke-width="2"/>
+<circle cx="85" cy="85" r="60" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<rect x="79" y="13" width="12" height="16" fill="#f4f4f4" stroke="#3a3d42" stroke-width="1.5"/>
+<circle cx="107" cy="46.8949" r="13" fill="#6f7378" stroke="#3a3d42" stroke-width="1.5"/>
+<circle cx="107" cy="46.8949" r="4" fill="#c9ccd1" stroke="#3a3d42"/>
+<text x="107" y="30.8949" text-anchor="middle" font-size="13" font-weight="700" fill="#111">1</text>
+<text x="129" y="12.7898" text-anchor="start" font-size="10" font-weight="600" fill="currentColor">GND</text>
+<circle cx="129" cy="85" r="13" fill="#b07a6a" stroke="#3a3d42" stroke-width="1.5"/>
+<circle cx="129" cy="85" r="4" fill="#c9ccd1" stroke="#3a3d42"/>
+<text x="129" y="69" text-anchor="middle" font-size="13" font-weight="700" fill="#111">2</text>
+<text x="173" y="89" text-anchor="start" font-size="10" font-weight="600" fill="currentColor">0–10 V</text>
+<circle cx="107" cy="123.105" r="13" fill="#7b7f85" stroke="#3a3d42" stroke-width="1.5"/>
+<circle cx="107" cy="123.105" r="4" fill="#c9ccd1" stroke="#3a3d42"/>
+<text x="107" y="107.105" text-anchor="middle" font-size="13" font-weight="700" fill="#111">3</text>
+<text x="129" y="165.21" text-anchor="start" font-size="10" font-weight="600" fill="currentColor">FWD</text>
+<circle cx="63" cy="123.105" r="13" fill="#6f7378" stroke="#3a3d42" stroke-width="1.5"/>
+<circle cx="63" cy="123.105" r="4" fill="#c9ccd1" stroke="#3a3d42"/>
+<text x="63" y="107.105" text-anchor="middle" font-size="13" font-weight="700" fill="#111">4</text>
+<text x="41" y="165.21" text-anchor="end" font-size="10" font-weight="600" fill="currentColor">COM</text>
+<circle cx="41" cy="85" r="13" fill="#8b8f95" stroke="#3a3d42" stroke-width="1.5"/>
+<circle cx="41" cy="85" r="4" fill="#c9ccd1" stroke="#3a3d42"/>
+<text x="41" y="69" text-anchor="middle" font-size="13" font-weight="700" fill="#111">5</text>
+<text x="-3" y="89" text-anchor="end" font-size="10" font-weight="600" fill="currentColor">NC</text>
+<circle cx="63" cy="46.8949" r="13" fill="#b07a6a" stroke="#3a3d42" stroke-width="1.5"/>
+<circle cx="63" cy="46.8949" r="4" fill="#c9ccd1" stroke="#3a3d42"/>
+<text x="63" y="30.8949" text-anchor="middle" font-size="13" font-weight="700" fill="#111">6</text>
+<text x="41" y="12.7898" text-anchor="end" font-size="10" font-weight="600" fill="currentColor">REV</text></g>
+</svg>

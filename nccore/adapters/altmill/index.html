@@ -2041,7 +2041,15 @@
 </tr>
 </tbody>
 </table>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-motor-power.svg" data-desc-position="bottom"><img alt="Motor power, per axis, 3.81 mm pluggable 2-pin" src="../../assets/images/connectors/am-motor-power.svg"></a></p>
+<figcaption>Motor power, per axis, 3.81 mm pluggable 2-pin</figcaption>
+</figure>
 <h2 id="motor-ribbon-per-axis">Motor ribbon, per axis<a class="headerlink" href="#motor-ribbon-per-axis" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-motor-ribbon.svg" data-desc-position="bottom"><img alt="Motor signal ribbon, 2×4 keyed box header, notch on the odd-pin side" src="../../assets/images/connectors/am-motor-ribbon.svg"></a></p>
+<figcaption>Motor signal ribbon, 2×4 keyed box header, notch on the odd-pin side</figcaption>
+</figure>
 <table>
 <thead>
 <tr>
@@ -2095,12 +2103,36 @@
 </table>
 <p>The AltMill drivers take the enable as an opto pair, so <code>ENA_N</code> drives EN− against a 5 V EN+. That is the one adapter where ENA − is used.</p>
 <h2 id="limits-jst-xh">Limits, JST XH<a class="headerlink" href="#limits-jst-xh" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-limit.svg" data-desc-position="bottom"><img alt="Limit sensor, JST XH 4-pin" src="../../assets/images/connectors/am-limit.svg"></a></p>
+<figcaption>Limit sensor, JST XH 4-pin</figcaption>
+</figure>
 <p>Pin 1 VCC from the fused 5 V, pin 2 GND, pin 3 not connected, pin 4 signal. The AltMill's inductive sensors run on 5 V; set LIMIT V on the mainboard to 5 V.</p>
 <h2 id="probe-tool-setter">Probe, tool setter<a class="headerlink" href="#probe-tool-setter" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-probe.svg" data-desc-position="bottom"><img alt="Probe, 3.81 mm pluggable 2-pin" src="../../assets/images/connectors/am-probe.svg"></a></p>
+<figcaption>Probe, 3.81 mm pluggable 2-pin</figcaption>
+</figure>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-tls.svg" data-desc-position="bottom"><img alt="Tool setter, 3.81 mm pluggable 3-pin" src="../../assets/images/connectors/am-tls.svg"></a></p>
+<figcaption>Tool setter, 3.81 mm pluggable 3-pin</figcaption>
+</figure>
 <p>Probe: signal, GND. Tool setter: fused 5 V, signal, GND.</p>
 <h2 id="rs-485-and-spindle">RS-485 and spindle<a class="headerlink" href="#rs-485-and-spindle" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-rs485.svg" data-desc-position="bottom"><img alt="VFD RS-485, 3.81 mm pluggable 4-pin" src="../../assets/images/connectors/am-rs485.svg"></a></p>
+<figcaption>VFD RS-485, 3.81 mm pluggable 4-pin</figcaption>
+</figure>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-spindle.svg" data-desc-position="bottom"><img alt="Spindle, 3.81 mm pluggable 5-pin" src="../../assets/images/connectors/am-spindle.svg"></a></p>
+<figcaption>Spindle, 3.81 mm pluggable 5-pin</figcaption>
+</figure>
 <p>RS-485: B, A, fused 5 V, GND. Spindle: GND, PWM, 0–10 V speed, direction, enable. Fit the RS485 TERM jumper on the mainboard.</p>
 <h2 id="flood-and-mist">Flood and mist<a class="headerlink" href="#flood-and-mist" title="Permanent link">¶</a></h2>
+<figure class="pinout">
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../assets/images/connectors/am-flood.svg" data-desc-position="bottom"><img alt="Flood, 3.81 mm pluggable 2-pin. Mist is identical with MIST on pin 2" src="../../assets/images/connectors/am-flood.svg"></a></p>
+<figcaption>Flood, 3.81 mm pluggable 2-pin. Mist is identical with MIST on pin 2</figcaption>
+</figure>
 <p>Fused 24 V and the switched return, one 2-pin terminal each.</p>
 <h2 id="e-stop-box">E-stop box<a class="headerlink" href="#e-stop-box" title="Permanent link">¶</a></h2>
 <p>The AltMill's E-stop box plugs straight into the mainboard's panel terminal: it uses the same seven-wire order as Sienci's SLB-EXT. See <a href="../../io/estop-panel/">E-Stop Panel &amp; Door</a>.</p>

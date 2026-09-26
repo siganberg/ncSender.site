@@ -209,3 +209,8 @@ img.placeholder[src$=".webp"]::after {
   margin-right: auto;
 }
 
+
+/* Connector face drawings */
+figure.pinout { margin: 1rem 0 1.5rem; text-align: center; }
+figure.pinout img { display: block; margin-inline: auto; max-height: 300px; width: auto; max-width: 100%; }
+figure.pinout figcaption { font-size: .75rem; opacity: .75; margin-top: .3rem; }
