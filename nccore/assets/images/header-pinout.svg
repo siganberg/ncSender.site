@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2098 900" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<rect width="2098" height="900" rx="24" fill="#151c26"/>
+<text x="60" y="66" font-size="28" font-weight="700" fill="#e8eef4" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">Adapter header · 2×32, 2.54 mm keyed box header · top view</text>
+<text x="60" y="96" font-size="15" fill="#8fa0b2">Pin 1 is the square pad, top left. Odd pins on the top row, even pins below. One colour per axis. The XT30 beside the header carries the switched motor bus.</text>
+<rect x="80" y="340" width="1938" height="178" rx="10" fill="#0c1118" stroke="#3a4656" stroke-width="3"/>
+<rect x="94" y="354" width="1910" height="150" rx="6" fill="#1b2430" stroke="#2e3947" stroke-width="2"/>
+<rect x="1022" y="332" width="54" height="20" rx="3" fill="#0c1118" stroke="#3a4656" stroke-width="3"/><text x="1049" y="325" font-size="12" fill="#8fa0b2" text-anchor="middle" font-weight="700">KEY</text>
+<rect x="133" y="383" width="34" height="34" rx="3" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="150" cy="400" r="5" fill="#0c1118"/>
+<text x="150" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">1</text>
+<line x1="150" y1="340" x2="150" y2="310" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(135,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">GND</text></g>
+<circle cx="150" cy="458" r="17" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="150" cy="458" r="5" fill="#0c1118"/>
+<text x="150" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">2</text>
+<line x1="150" y1="518" x2="150" y2="548" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(165,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">GND</text></g>
+<circle cx="208" cy="400" r="17" fill="#e3a56f" stroke="#0c1118" stroke-width="2"/>
+<circle cx="208" cy="400" r="5" fill="#0c1118"/>
+<text x="208" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">3</text>
+<line x1="208" y1="340" x2="208" y2="310" stroke="#e3a56f" stroke-width="2"/>
+<g transform="translate(193,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#e3a56f"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">ENA+</text></g>
+<circle cx="208" cy="458" r="17" fill="#e3a56f" stroke="#0c1118" stroke-width="2"/>
+<circle cx="208" cy="458" r="5" fill="#0c1118"/>
+<text x="208" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">4</text>
+<line x1="208" y1="518" x2="208" y2="548" stroke="#e3a56f" stroke-width="2"/>
+<g transform="translate(223,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#e3a56f"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">ENA−</text></g>
+<circle cx="266" cy="400" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="266" cy="400" r="5" fill="#0c1118"/>
+<text x="266" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">5</text>
+<line x1="266" y1="340" x2="266" y2="310" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(251,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">X STEP+</text></g>
+<circle cx="266" cy="458" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="266" cy="458" r="5" fill="#0c1118"/>
+<text x="266" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">6</text>
+<line x1="266" y1="518" x2="266" y2="548" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(281,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">X STEP−</text></g>
+<circle cx="324" cy="400" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="324" cy="400" r="5" fill="#0c1118"/>
+<text x="324" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">7</text>
+<line x1="324" y1="340" x2="324" y2="310" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(309,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">X DIR+</text></g>
+<circle cx="324" cy="458" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="324" cy="458" r="5" fill="#0c1118"/>
+<text x="324" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">8</text>
+<line x1="324" y1="518" x2="324" y2="548" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(339,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">X DIR−</text></g>
+<circle cx="382" cy="400" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="382" cy="400" r="5" fill="#0c1118"/>
+<text x="382" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">9</text>
+<line x1="382" y1="340" x2="382" y2="310" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(367,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">X ALM+</text></g>
+<circle cx="382" cy="458" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="382" cy="458" r="5" fill="#0c1118"/>
+<text x="382" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">10</text>
+<line x1="382" y1="518" x2="382" y2="548" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(397,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">X ALM−</text></g>
+<circle cx="440" cy="400" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="440" cy="400" r="5" fill="#0c1118"/>
+<text x="440" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">11</text>
+<line x1="440" y1="340" x2="440" y2="310" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(425,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">LIM X</text></g>
+<circle cx="440" cy="458" r="17" fill="#ffd166" stroke="#0c1118" stroke-width="2"/>
+<circle cx="440" cy="458" r="5" fill="#0c1118"/>
+<text x="440" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">12</text>
+<line x1="440" y1="518" x2="440" y2="548" stroke="#ffd166" stroke-width="2"/>
+<g transform="translate(455,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ffd166"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">5V</text></g>
+<circle cx="498" cy="400" r="17" fill="#ff6b6b" stroke="#0c1118" stroke-width="2"/>
+<circle cx="498" cy="400" r="5" fill="#0c1118"/>
+<text x="498" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">13</text>
+<line x1="498" y1="340" x2="498" y2="310" stroke="#ff6b6b" stroke-width="2"/>
+<g transform="translate(483,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff6b6b"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">485 A</text></g>
+<circle cx="498" cy="458" r="17" fill="#ff6b6b" stroke="#0c1118" stroke-width="2"/>
+<circle cx="498" cy="458" r="5" fill="#0c1118"/>
+<text x="498" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">14</text>
+<line x1="498" y1="518" x2="498" y2="548" stroke="#ff6b6b" stroke-width="2"/>
+<g transform="translate(513,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff6b6b"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">485 B</text></g>
+<circle cx="556" cy="400" r="17" fill="#c5e17a" stroke="#0c1118" stroke-width="2"/>
+<circle cx="556" cy="400" r="5" fill="#0c1118"/>
+<text x="556" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">15</text>
+<line x1="556" y1="340" x2="556" y2="310" stroke="#c5e17a" stroke-width="2"/>
+<g transform="translate(541,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#c5e17a"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">PROBE</text></g>
+<circle cx="556" cy="458" r="17" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="556" cy="458" r="5" fill="#0c1118"/>
+<text x="556" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">16</text>
+<line x1="556" y1="518" x2="556" y2="548" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(571,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">GND</text></g>
+<circle cx="614" cy="400" r="17" fill="#1abc9c" stroke="#0c1118" stroke-width="2"/>
+<circle cx="614" cy="400" r="5" fill="#0c1118"/>
+<text x="614" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">17</text>
+<line x1="614" y1="340" x2="614" y2="310" stroke="#1abc9c" stroke-width="2"/>
+<g transform="translate(599,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#1abc9c"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">LIM X2</text></g>
+<circle cx="614" cy="458" r="17" fill="#ffd166" stroke="#0c1118" stroke-width="2"/>
+<circle cx="614" cy="458" r="5" fill="#0c1118"/>
+<text x="614" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">18</text>
+<line x1="614" y1="518" x2="614" y2="548" stroke="#ffd166" stroke-width="2"/>
+<g transform="translate(629,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ffd166"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">5V</text></g>
+<circle cx="672" cy="400" r="17" fill="#c5e17a" stroke="#0c1118" stroke-width="2"/>
+<circle cx="672" cy="400" r="5" fill="#0c1118"/>
+<text x="672" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">19</text>
+<line x1="672" y1="340" x2="672" y2="310" stroke="#c5e17a" stroke-width="2"/>
+<g transform="translate(657,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#c5e17a"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">TLS</text></g>
+<circle cx="672" cy="458" r="17" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="672" cy="458" r="5" fill="#0c1118"/>
+<text x="672" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">20</text>
+<line x1="672" y1="518" x2="672" y2="548" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(687,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">GND</text></g>
+<circle cx="730" cy="400" r="17" fill="#4f8ef7" stroke="#0c1118" stroke-width="2"/>
+<circle cx="730" cy="400" r="5" fill="#0c1118"/>
+<text x="730" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">21</text>
+<line x1="730" y1="340" x2="730" y2="310" stroke="#4f8ef7" stroke-width="2"/>
+<g transform="translate(715,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4f8ef7"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Y1 STEP+</text></g>
+<circle cx="730" cy="458" r="17" fill="#4f8ef7" stroke="#0c1118" stroke-width="2"/>
+<circle cx="730" cy="458" r="5" fill="#0c1118"/>
+<text x="730" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">22</text>
+<line x1="730" y1="518" x2="730" y2="548" stroke="#4f8ef7" stroke-width="2"/>
+<g transform="translate(745,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4f8ef7"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Y1 STEP−</text></g>
+<circle cx="788" cy="400" r="17" fill="#4f8ef7" stroke="#0c1118" stroke-width="2"/>
+<circle cx="788" cy="400" r="5" fill="#0c1118"/>
+<text x="788" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">23</text>
+<line x1="788" y1="340" x2="788" y2="310" stroke="#4f8ef7" stroke-width="2"/>
+<g transform="translate(773,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4f8ef7"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Y1 DIR+</text></g>
+<circle cx="788" cy="458" r="17" fill="#4f8ef7" stroke="#0c1118" stroke-width="2"/>
+<circle cx="788" cy="458" r="5" fill="#0c1118"/>
+<text x="788" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">24</text>
+<line x1="788" y1="518" x2="788" y2="548" stroke="#4f8ef7" stroke-width="2"/>
+<g transform="translate(803,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4f8ef7"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Y1 DIR−</text></g>
+<circle cx="846" cy="400" r="17" fill="#4f8ef7" stroke="#0c1118" stroke-width="2"/>
+<circle cx="846" cy="400" r="5" fill="#0c1118"/>
+<text x="846" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">25</text>
+<line x1="846" y1="340" x2="846" y2="310" stroke="#4f8ef7" stroke-width="2"/>
+<g transform="translate(831,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4f8ef7"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Y1 ALM+</text></g>
+<circle cx="846" cy="458" r="17" fill="#4f8ef7" stroke="#0c1118" stroke-width="2"/>
+<circle cx="846" cy="458" r="5" fill="#0c1118"/>
+<text x="846" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">26</text>
+<line x1="846" y1="518" x2="846" y2="548" stroke="#4f8ef7" stroke-width="2"/>
+<g transform="translate(861,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4f8ef7"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Y1 ALM−</text></g>
+<circle cx="904" cy="400" r="17" fill="#4f8ef7" stroke="#0c1118" stroke-width="2"/>
+<circle cx="904" cy="400" r="5" fill="#0c1118"/>
+<text x="904" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">27</text>
+<line x1="904" y1="340" x2="904" y2="310" stroke="#4f8ef7" stroke-width="2"/>
+<g transform="translate(889,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4f8ef7"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">LIM Y</text></g>
+<circle cx="904" cy="458" r="17" fill="#ffd166" stroke="#0c1118" stroke-width="2"/>
+<circle cx="904" cy="458" r="5" fill="#0c1118"/>
+<text x="904" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">28</text>
+<line x1="904" y1="518" x2="904" y2="548" stroke="#ffd166" stroke-width="2"/>
+<g transform="translate(919,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ffd166"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">5V</text></g>
+<circle cx="962" cy="400" r="17" fill="#9ccc65" stroke="#0c1118" stroke-width="2"/>
+<circle cx="962" cy="400" r="5" fill="#0c1118"/>
+<text x="962" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">29</text>
+<line x1="962" y1="340" x2="962" y2="310" stroke="#9ccc65" stroke-width="2"/>
+<g transform="translate(947,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#9ccc65"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">FLOOD</text></g>
+<circle cx="962" cy="458" r="17" fill="#f7b267" stroke="#0c1118" stroke-width="2"/>
+<circle cx="962" cy="458" r="5" fill="#0c1118"/>
+<text x="962" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">30</text>
+<line x1="962" y1="518" x2="962" y2="548" stroke="#f7b267" stroke-width="2"/>
+<g transform="translate(977,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f7b267"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">24V</text></g>
+<circle cx="1020" cy="400" r="17" fill="#4dd0e1" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1020" cy="400" r="5" fill="#0c1118"/>
+<text x="1020" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">31</text>
+<line x1="1020" y1="340" x2="1020" y2="310" stroke="#4dd0e1" stroke-width="2"/>
+<g transform="translate(1005,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4dd0e1"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">SPIN EN</text></g>
+<circle cx="1020" cy="458" r="17" fill="#4dd0e1" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1020" cy="458" r="5" fill="#0c1118"/>
+<text x="1020" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">32</text>
+<line x1="1020" y1="518" x2="1020" y2="548" stroke="#4dd0e1" stroke-width="2"/>
+<g transform="translate(1035,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4dd0e1"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">SPIN DIR</text></g>
+<circle cx="1078" cy="400" r="17" fill="#9ccc65" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1078" cy="400" r="5" fill="#0c1118"/>
+<text x="1078" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">33</text>
+<line x1="1078" y1="340" x2="1078" y2="310" stroke="#9ccc65" stroke-width="2"/>
+<g transform="translate(1063,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#9ccc65"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">MIST</text></g>
+<circle cx="1078" cy="458" r="17" fill="#f7b267" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1078" cy="458" r="5" fill="#0c1118"/>
+<text x="1078" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">34</text>
+<line x1="1078" y1="518" x2="1078" y2="548" stroke="#f7b267" stroke-width="2"/>
+<g transform="translate(1093,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f7b267"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">24V</text></g>
+<circle cx="1136" cy="400" r="17" fill="#b388ff" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1136" cy="400" r="5" fill="#0c1118"/>
+<text x="1136" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">35</text>
+<line x1="1136" y1="340" x2="1136" y2="310" stroke="#b388ff" stroke-width="2"/>
+<g transform="translate(1121,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#b388ff"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Y2 STEP+</text></g>
+<circle cx="1136" cy="458" r="17" fill="#b388ff" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1136" cy="458" r="5" fill="#0c1118"/>
+<text x="1136" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">36</text>
+<line x1="1136" y1="518" x2="1136" y2="548" stroke="#b388ff" stroke-width="2"/>
+<g transform="translate(1151,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#b388ff"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Y2 STEP−</text></g>
+<circle cx="1194" cy="400" r="17" fill="#b388ff" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1194" cy="400" r="5" fill="#0c1118"/>
+<text x="1194" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">37</text>
+<line x1="1194" y1="340" x2="1194" y2="310" stroke="#b388ff" stroke-width="2"/>
+<g transform="translate(1179,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#b388ff"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Y2 DIR+</text></g>
+<circle cx="1194" cy="458" r="17" fill="#b388ff" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1194" cy="458" r="5" fill="#0c1118"/>
+<text x="1194" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">38</text>
+<line x1="1194" y1="518" x2="1194" y2="548" stroke="#b388ff" stroke-width="2"/>
+<g transform="translate(1209,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#b388ff"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Y2 DIR−</text></g>
+<circle cx="1252" cy="400" r="17" fill="#b388ff" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1252" cy="400" r="5" fill="#0c1118"/>
+<text x="1252" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">39</text>
+<line x1="1252" y1="340" x2="1252" y2="310" stroke="#b388ff" stroke-width="2"/>
+<g transform="translate(1237,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#b388ff"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Y2 ALM+</text></g>
+<circle cx="1252" cy="458" r="17" fill="#b388ff" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1252" cy="458" r="5" fill="#0c1118"/>
+<text x="1252" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">40</text>
+<line x1="1252" y1="518" x2="1252" y2="548" stroke="#b388ff" stroke-width="2"/>
+<g transform="translate(1267,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#b388ff"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Y2 ALM−</text></g>
+<circle cx="1310" cy="400" r="17" fill="#b388ff" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1310" cy="400" r="5" fill="#0c1118"/>
+<text x="1310" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">41</text>
+<line x1="1310" y1="340" x2="1310" y2="310" stroke="#b388ff" stroke-width="2"/>
+<g transform="translate(1295,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#b388ff"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">LIM Y2</text></g>
+<circle cx="1310" cy="458" r="17" fill="#ffd166" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1310" cy="458" r="5" fill="#0c1118"/>
+<text x="1310" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">42</text>
+<line x1="1310" y1="518" x2="1310" y2="548" stroke="#ffd166" stroke-width="2"/>
+<g transform="translate(1325,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ffd166"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">5V</text></g>
+<circle cx="1368" cy="400" r="17" fill="#4dd0e1" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1368" cy="400" r="5" fill="#0c1118"/>
+<text x="1368" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">43</text>
+<line x1="1368" y1="340" x2="1368" y2="310" stroke="#4dd0e1" stroke-width="2"/>
+<g transform="translate(1353,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4dd0e1"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">SPIN PWM</text></g>
+<circle cx="1368" cy="458" r="17" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1368" cy="458" r="5" fill="#0c1118"/>
+<text x="1368" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">44</text>
+<line x1="1368" y1="518" x2="1368" y2="548" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(1383,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">GND</text></g>
+<circle cx="1426" cy="400" r="17" fill="#4dd0e1" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1426" cy="400" r="5" fill="#0c1118"/>
+<text x="1426" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">45</text>
+<line x1="1426" y1="340" x2="1426" y2="310" stroke="#4dd0e1" stroke-width="2"/>
+<g transform="translate(1411,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#4dd0e1"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">0–10V</text></g>
+<circle cx="1426" cy="458" r="17" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1426" cy="458" r="5" fill="#0c1118"/>
+<text x="1426" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">46</text>
+<line x1="1426" y1="518" x2="1426" y2="548" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(1441,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">GND</text></g>
+<circle cx="1484" cy="400" r="17" fill="#f4a261" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1484" cy="400" r="5" fill="#0c1118"/>
+<text x="1484" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">47</text>
+<line x1="1484" y1="340" x2="1484" y2="310" stroke="#f4a261" stroke-width="2"/>
+<g transform="translate(1469,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f4a261"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Z STEP+</text></g>
+<circle cx="1484" cy="458" r="17" fill="#f4a261" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1484" cy="458" r="5" fill="#0c1118"/>
+<text x="1484" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">48</text>
+<line x1="1484" y1="518" x2="1484" y2="548" stroke="#f4a261" stroke-width="2"/>
+<g transform="translate(1499,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f4a261"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Z STEP−</text></g>
+<circle cx="1542" cy="400" r="17" fill="#f4a261" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1542" cy="400" r="5" fill="#0c1118"/>
+<text x="1542" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">49</text>
+<line x1="1542" y1="340" x2="1542" y2="310" stroke="#f4a261" stroke-width="2"/>
+<g transform="translate(1527,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f4a261"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Z DIR+</text></g>
+<circle cx="1542" cy="458" r="17" fill="#f4a261" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1542" cy="458" r="5" fill="#0c1118"/>
+<text x="1542" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">50</text>
+<line x1="1542" y1="518" x2="1542" y2="548" stroke="#f4a261" stroke-width="2"/>
+<g transform="translate(1557,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f4a261"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Z DIR−</text></g>
+<circle cx="1600" cy="400" r="17" fill="#f4a261" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1600" cy="400" r="5" fill="#0c1118"/>
+<text x="1600" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">51</text>
+<line x1="1600" y1="340" x2="1600" y2="310" stroke="#f4a261" stroke-width="2"/>
+<g transform="translate(1585,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f4a261"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">Z ALM+</text></g>
+<circle cx="1600" cy="458" r="17" fill="#f4a261" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1600" cy="458" r="5" fill="#0c1118"/>
+<text x="1600" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">52</text>
+<line x1="1600" y1="518" x2="1600" y2="548" stroke="#f4a261" stroke-width="2"/>
+<g transform="translate(1615,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f4a261"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">Z ALM−</text></g>
+<circle cx="1658" cy="400" r="17" fill="#f4a261" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1658" cy="400" r="5" fill="#0c1118"/>
+<text x="1658" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">53</text>
+<line x1="1658" y1="340" x2="1658" y2="310" stroke="#f4a261" stroke-width="2"/>
+<g transform="translate(1643,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#f4a261"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">LIM Z</text></g>
+<circle cx="1658" cy="458" r="17" fill="#ffd166" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1658" cy="458" r="5" fill="#0c1118"/>
+<text x="1658" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">54</text>
+<line x1="1658" y1="518" x2="1658" y2="548" stroke="#ffd166" stroke-width="2"/>
+<g transform="translate(1673,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ffd166"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">5V</text></g>
+<circle cx="1716" cy="400" r="17" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1716" cy="400" r="5" fill="#0c1118"/>
+<text x="1716" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">55</text>
+<line x1="1716" y1="340" x2="1716" y2="310" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(1701,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">GND</text></g>
+<circle cx="1716" cy="458" r="17" fill="#7d8a99" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1716" cy="458" r="5" fill="#0c1118"/>
+<text x="1716" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">56</text>
+<line x1="1716" y1="518" x2="1716" y2="548" stroke="#7d8a99" stroke-width="2"/>
+<g transform="translate(1731,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#7d8a99"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">GND</text></g>
+<circle cx="1774" cy="400" r="17" fill="#ff8fcf" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1774" cy="400" r="5" fill="#0c1118"/>
+<text x="1774" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">57</text>
+<line x1="1774" y1="340" x2="1774" y2="310" stroke="#ff8fcf" stroke-width="2"/>
+<g transform="translate(1759,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff8fcf"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">A STEP+</text></g>
+<circle cx="1774" cy="458" r="17" fill="#ff8fcf" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1774" cy="458" r="5" fill="#0c1118"/>
+<text x="1774" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">58</text>
+<line x1="1774" y1="518" x2="1774" y2="548" stroke="#ff8fcf" stroke-width="2"/>
+<g transform="translate(1789,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff8fcf"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">A STEP−</text></g>
+<circle cx="1832" cy="400" r="17" fill="#ff8fcf" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1832" cy="400" r="5" fill="#0c1118"/>
+<text x="1832" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">59</text>
+<line x1="1832" y1="340" x2="1832" y2="310" stroke="#ff8fcf" stroke-width="2"/>
+<g transform="translate(1817,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff8fcf"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">A DIR+</text></g>
+<circle cx="1832" cy="458" r="17" fill="#ff8fcf" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1832" cy="458" r="5" fill="#0c1118"/>
+<text x="1832" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">60</text>
+<line x1="1832" y1="518" x2="1832" y2="548" stroke="#ff8fcf" stroke-width="2"/>
+<g transform="translate(1847,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff8fcf"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">A DIR−</text></g>
+<circle cx="1890" cy="400" r="17" fill="#ff8fcf" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1890" cy="400" r="5" fill="#0c1118"/>
+<text x="1890" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">61</text>
+<line x1="1890" y1="340" x2="1890" y2="310" stroke="#ff8fcf" stroke-width="2"/>
+<g transform="translate(1875,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff8fcf"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">A ALM+</text></g>
+<circle cx="1890" cy="458" r="17" fill="#ff8fcf" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1890" cy="458" r="5" fill="#0c1118"/>
+<text x="1890" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">62</text>
+<line x1="1890" y1="518" x2="1890" y2="548" stroke="#ff8fcf" stroke-width="2"/>
+<g transform="translate(1905,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff8fcf"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">A ALM−</text></g>
+<circle cx="1948" cy="400" r="17" fill="#ff8fcf" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1948" cy="400" r="5" fill="#0c1118"/>
+<text x="1948" y="376" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">63</text>
+<line x1="1948" y1="340" x2="1948" y2="310" stroke="#ff8fcf" stroke-width="2"/>
+<g transform="translate(1933,310) rotate(-90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ff8fcf"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle">LIM A</text></g>
+<circle cx="1948" cy="458" r="17" fill="#ffd166" stroke="#0c1118" stroke-width="2"/>
+<circle cx="1948" cy="458" r="5" fill="#0c1118"/>
+<text x="1948" y="490" font-size="12" font-weight="700" fill="#e8eef4" text-anchor="middle">64</text>
+<line x1="1948" y1="518" x2="1948" y2="548" stroke="#ffd166" stroke-width="2"/>
+<g transform="translate(1963,548) rotate(90)"><path d="M10,0 H113 a7,7 0 0 1 7,7 V23 a7,7 0 0 1 -7,7 H10 L0,15 Z" fill="#ffd166"/><text x="65" y="16" font-size="17" font-weight="700" fill="#0c1118" text-anchor="middle" dominant-baseline="middle" transform="rotate(180 65 16)">5V</text></g>
+<text x="60" y="744" font-size="13" fill="#8fa0b2" font-weight="700">AXIS</text>
+<circle cx="69" cy="766" r="9" fill="#1abc9c"/><text x="86" y="771" font-size="15" font-weight="700" fill="#c8d2dc">X</text>
+<circle cx="189" cy="766" r="9" fill="#4f8ef7"/><text x="206" y="771" font-size="15" font-weight="700" fill="#c8d2dc">Y1</text>
+<circle cx="309" cy="766" r="9" fill="#b388ff"/><text x="326" y="771" font-size="15" font-weight="700" fill="#c8d2dc">Y2</text>
+<circle cx="429" cy="766" r="9" fill="#f4a261"/><text x="446" y="771" font-size="15" font-weight="700" fill="#c8d2dc">Z</text>
+<circle cx="549" cy="766" r="9" fill="#ff8fcf"/><text x="566" y="771" font-size="15" font-weight="700" fill="#c8d2dc">A</text>
+<text x="670" y="771" font-size="13" fill="#8fa0b2">STEP± · DIR± · ALM± · LIM in the axis colour</text>
+<text x="60" y="816" font-size="13" fill="#8fa0b2" font-weight="700">SHARED</text>
+<circle cx="69" cy="838" r="9" fill="#7d8a99"/><text x="86" y="843" font-size="15" fill="#c8d2dc">Ground</text>
+<circle cx="304" cy="838" r="9" fill="#e3a56f"/><text x="321" y="843" font-size="15" fill="#c8d2dc">Enable (all axes)</text>
+<circle cx="539" cy="838" r="9" fill="#ffd166"/><text x="556" y="843" font-size="15" fill="#c8d2dc">5 V fused</text>
+<circle cx="774" cy="838" r="9" fill="#f7b267"/><text x="791" y="843" font-size="15" fill="#c8d2dc">24 V fused</text>
+<circle cx="1009" cy="838" r="9" fill="#c5e17a"/><text x="1026" y="843" font-size="15" fill="#c8d2dc">Probe / tool setter</text>
+<circle cx="1244" cy="838" r="9" fill="#ff6b6b"/><text x="1261" y="843" font-size="15" fill="#c8d2dc">RS-485 VFD</text>
+<circle cx="1479" cy="838" r="9" fill="#4dd0e1"/><text x="1496" y="843" font-size="15" fill="#c8d2dc">Spindle</text>
+<circle cx="1714" cy="838" r="9" fill="#9ccc65"/><text x="1731" y="843" font-size="15" fill="#c8d2dc">Flood / mist</text>
+</svg>
